@@ -39,12 +39,6 @@
 	}
 }
 
-@media (480px <= width < 768px) {
-	.test-media-query-ranges {
-		order: 8;
-	}
-}
-
 @custom-media --dark-mode (prefers-color-scheme: dark);
 
 @media (--dark-mode) {
